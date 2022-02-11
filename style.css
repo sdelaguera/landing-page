@@ -1,0 +1,153 @@
+
+
+body {
+    margin: 0 ;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    align-items: center;
+    display: flex;
+    padding-left: 210px;
+    padding-right: 210px;
+    justify-content: space-between;
+    
+}
+
+a {
+    font-size: 18px; 
+    color: #e5e7eb; 
+    text-decoration: none;
+    
+}
+
+.hero {
+    background-color: #1F2937;
+    display:flex;
+    align-items: center;
+    height: 400px;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+
+
+}
+
+input {
+    background-color: #3882f6;
+    color:#e5e7eb;
+    border-radius: 12px;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: bold;
+    display: block;
+    border-style: none;
+    text-align: center;
+    }
+
+.picture-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    justify-content: center;
+    display: flex;
+}
+
+#gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.gallery-items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.gallery-items img {
+    height: 300px;
+    width: 225px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-width: 5px;
+    border-radius: 12px;
+    object-fit: fill;
+    margin: 5px 20px 0px 20px;
+    
+}
+
+#quote {
+    background-color: #e5e7eb;
+    padding: 50px 75px 50px 75px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+#quote .text,.source {
+    width:500px;
+}
+
+#quote .text {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+#quote .source {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+
+}
+
+#call {
+    align-self: center;
+    display: flex;
+    background-color: #3882f6;
+    width: 500px;
+    align-items: center;
+    justify-content: space-between;
+    margin:auto;
+    margin-top: 25px;
+    border: solid #3882f6;
+    border-radius: 8px;
+    padding: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color:#e5e7eb;
+}
+
+.call-header {
+    color:#e5e7eb
+}
+
+.call-button {
+    border: solid;
+    border-color: #e5e7eb;
+    border-radius: 8px;
+    border-width: 2px;
+}
+
+#copyright {
+    margin-top: 25px;
+    display: flex;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    justify-content: center;
+    font-size: 14px;
+    padding: 15px
+}
